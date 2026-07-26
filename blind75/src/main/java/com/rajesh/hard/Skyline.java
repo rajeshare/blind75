@@ -1,7 +1,21 @@
 
-package com.rajesh;
+package com.rajesh.hard;
 
 import java.util.*;
+
+/*
+The Skyline Problem
+ buildings[i] = [lefti, righti, heighti]:
+
+Input: buildings = [[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]
+Output: [[2,10],[3,15],[7,12],[12,0],[15,10],[20,8],[24,0]]
+Explanation:
+Figure A shows the buildings of the input.
+Figure B shows the skyline formed by those buildings. The red points in figure B represent the key points in the output list.
+
+https://leetcode.com/problems/the-skyline-problem/description/
+
+ */
 
 public class Skyline {
     public List<List<Integer>> getSkyline(int[][] buildings) {
