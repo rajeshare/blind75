@@ -1,4 +1,4 @@
-package org.twopointer;
+package ds.twopointer;
 
 class Polindrome {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.slidingwindow;
+package ds.slidingwindow;
 
 import java.util.stream.IntStream;
 

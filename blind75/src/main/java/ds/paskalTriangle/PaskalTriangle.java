@@ -1,4 +1,4 @@
-package org.paskalTriangle;
+package ds.paskalTriangle;
 
 import java.util.ArrayList;
 import java.util.List;

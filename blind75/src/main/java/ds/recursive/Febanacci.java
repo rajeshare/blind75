@@ -1,4 +1,4 @@
-package org.recursive;
+package ds.recursive;
 
 public class Febanacci {
     public static void main(String[] args) {

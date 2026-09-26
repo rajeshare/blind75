@@ -1,4 +1,4 @@
-package org.twopointer;
+package ds.twopointer;
 
 public class MultiWorkPolindromeRemoveSpaceComma {
 

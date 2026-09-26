@@ -1,4 +1,4 @@
-package org.monotonicstack;
+package ds.monotonicstack;
 
 import java.util.ArrayList;
 import java.util.List;
