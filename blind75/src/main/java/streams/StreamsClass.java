@@ -1,11 +1,9 @@
 package streams;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class StreamsClass {
 
@@ -28,5 +26,10 @@ public class StreamsClass {
 
      //   String collect3 = list.stream().collect(Collectors);
 
+        int[] arr={1,2,3,4,5,6};
+        IntStream.range(0,arr.length).map(i -> arr[arr.length-i-1]).forEach(System.out::println);
+        int sum=IntStream.range(0,11).sum();
+        System.out.println(sum);
+        IntStream.range(0,11).forEach(System.out::println);
     }
 }
